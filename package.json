@@ -1,0 +1,29 @@
+{
+  "name": "hearth",
+  "version": "1.0.0",
+  "description": "Private AI chat that runs entirely in the browser (WebGPU + WebAssembly).",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.86",
+    "@wllama/wllama": "^3.8.1",
+    "dompurify": "^3.4.17",
+    "highlight.js": "^11.12.0",
+    "marked": "^18.1.1",
+    "pdfjs-dist": "^6.4.299",
+    "fflate": "^0.8.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
